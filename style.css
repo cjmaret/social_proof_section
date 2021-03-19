@@ -1,0 +1,75 @@
+.page {
+    background-color: white;
+    border: 1px solid orange;
+    margin: 0 auto;
+}
+
+.top-rectangle {
+    width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    margin-top: 127px;
+}
+
+.title-square {
+    width: 445px;
+    border: red 1px solid;
+    margin-right: 125px;
+}
+
+.title {
+    margin: 0;
+    font-size: 48px;
+    line-height: 1;
+    letter-spacing: -1.71px;
+    color: #512051;
+    margin-bottom: 6px;
+}
+
+.subtitle {
+    font-size: 15px;
+    line-height: 25px;
+    letter-spacing: -0.5px;
+    color: #927b91;
+}
+
+.ratings-square {
+    width: 540px;
+    display: block;
+    border: red 1px solid;
+}
+
+.rating {
+    margin: 0;
+    width: 445px;
+    height: 56px;
+    margin-bottom: 16px;
+    border: 1px solid blue;
+    background-color: #F7F2F7;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.rating-text {
+    margin: 0;
+    color: #512051;
+    font-size: 13px;
+    line-height: 14.56px;
+}
+
+.rating_left {
+}
+
+.rating_center {
+    margin: 0 auto 16px auto;
+}
+
+.rating_right {
+    margin: 0 0 0 auto;
+}
+
+.star {
+    margin-right: 8.45px;
+}

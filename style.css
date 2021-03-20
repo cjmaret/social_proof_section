@@ -180,6 +180,8 @@ html {
     .page {
         background-size: 100%, cover;
         background-position: left top, center;
+        padding-top: 80px;
+        padding-bottom: 99px;
     }
 
     .top-rectangle {

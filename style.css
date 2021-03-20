@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Spartan:wght@400;500;700&display=swap');
 
+
+html {
+    background-color: grey;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
 .page {
     background-color: white;
     margin: 0 auto;
@@ -10,6 +17,7 @@
     background-position: left top, right 100px bottom;
     background-repeat: no-repeat;
     padding-top: 127px;
+    padding-bottom: 100px;
 }
 
 .top-rectangle {
@@ -43,7 +51,8 @@
 
 .ratings-square {
     width: 540px;
-    display: block;
+    display: flex;
+    flex-direction: column;
 }
 
 .rating {
@@ -65,15 +74,13 @@
     line-height: 14.56px;
 }
 
-.rating_left {
-}
-
 .rating_center {
-    margin: 0 auto 16px auto;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .rating_right {
-    margin: 0 0 0 auto;
+    margin-left: auto;
 }
 
 .star {
@@ -87,11 +94,10 @@
 
 .bottom-rectangle {
     max-width: 1100px;
-    height: 266px;
+    min-height: 266px;
     margin: 0 auto;
     display: flex;
-    margin-top: 127px;
-    margin-bottom: 100px;
+    margin-top: 72px;
 }
 
 .testimonial-square {
@@ -107,13 +113,16 @@
     margin-right: 0;
 }
 
+.testimonial-square_top {
+    align-self: flex-start;
+}
+
 .testimonial-square_center {
-    margin-top: auto;
-    margin-bottom: auto;
+    align-self: center;
 }
 
 .testimonial-square_bottom {
-    margin-top: auto;
+    align-self: flex-end;
 }
 
 
@@ -163,11 +172,14 @@
 
 @media only screen and (max-width: 375px) {
 
+    html {
+        margin: 0;
+        background-color: none;
+    }
+
     .page {
         background-size: 100%, cover;
         background-position: left top, center;
-        padding-top: 80px;
-        padding-bottom: 99px;
     }
 
     .top-rectangle {
